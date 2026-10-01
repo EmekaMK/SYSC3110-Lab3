@@ -12,11 +12,10 @@ public class AddressBook {
         buddies.add(buddy);
     }
 
-    public BuddyInfo removeBuddy(int index) {
+    public void removeBuddy(int index) {
         if(index >= 0 && index < buddies.size()) {
-            return buddies.remove(index);
+            buddies.remove(index);
         }
-        return null;
     }
 
     public static void main(String[] args) {
