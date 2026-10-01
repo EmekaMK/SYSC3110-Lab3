@@ -25,6 +25,6 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
-
+        System.out.println("Lab 3 github changes");
     }
 }
