@@ -27,5 +27,6 @@ public class AddressBook {
         addressBook.removeBuddy(0);
         System.out.println("Lab 3 github changes");
         System.out.println("Online changes");
+        System.out.println("Branch changes");
     }
 }
